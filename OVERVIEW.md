@@ -93,8 +93,11 @@ The more databases that can exist in your application bring a problem. How are t
 The address of the database could be hardcoded, but in a lot of situations there are too many.
 A database could be used to track the other database addresses, but in some situations that's not the best option.
 A third option is for your application to know the scheme in which the manifests are created.
+
 If you are able to determine the manifest data from knowing things like what the database is used for and/or who owns it,
 then you have the manifest and can open any database when needed.
+
+It's also good to understand the difference between separate users and separate devices. A user may have many devices and interact with other users and by extension their many devices.
 
 ----
 
