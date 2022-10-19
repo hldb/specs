@@ -28,7 +28,7 @@ Peers with the same set of updates will have the same database state.
 The replica is the main part of the database.
 There are three data formats that make up the database replica: the manifest, entry, and identity.
 
-The [manifest](./MANIFEST.md) is a setup document.
+The [manifest](./manifest) is a setup document.
 It contains rules and configuration needed to run the database.
 Nodes that setup their database with the manifest configuration will satisfy strong eventual consistency;
 no additional agreement or coordination is required.
