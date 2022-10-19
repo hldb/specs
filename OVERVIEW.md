@@ -9,13 +9,13 @@
 - [Introduction](#introduction)
 - [Replica](#replica)
 - [Processes](#processes)
-- [The CRDTS](#the-crdts)
+- [The CRDT](#the-crdt)
 - [Fundamental Limits](#fundamental-limits)
 - [Design in Use](#design-in-use)
 
 ## Introduction
 
-The Opal protocol spec defines a way to create and participate in shared, mutable states with other peers.
+The Opal protocol spec defines a way to create and participate in shared, mutable states with other peers using CRDTs.
 Each peer maintains its own copy of the database called a replica.
 Instead of reading from a remote database, the peer's local replica is used as the source of truth.
 
@@ -34,7 +34,7 @@ Nodes that setup their database with the manifest configuration will satisfy str
 no additional agreement or coordination is required.
 The hash of the manifest is used to identify the database.
 
-The [entry](./entry) makes up the CRDT part of the database.
+The [entry](./entry) is the CRDT part of the database.
 Each entry is a DAG node with causal links to previous entries.
 They make up the immutable log of updates to the database store.
 
