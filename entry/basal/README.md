@@ -2,7 +2,7 @@
 
 **Abstract**
 
-Basal means base/basic/initial. Basal Entries are meant to be a simple entry format. 
+Basal means base/basic/initial. Basal Entries are meant to be a base entry format. 
 
 **Versions:**
 

@@ -15,12 +15,12 @@
 
 ## Introduction
 
-The Opal protocol spec defines a way to create and participate in shared, mutable states with other peers using CRDTs.
+The Opal protocol spec defines a way to create and participate in shared, mutable states with other peers.
 Each peer maintains its own copy of the database called a replica.
 Instead of reading from a remote database, the peer's local replica is used as the source of truth.
 
 A participant can read and write to the database while offline.
-Updates they make while disconnected from peers can be communicated and merged later in a conflict-free way.
+Updates they make while disconnected from peers can be communicated and merged later in a conflict-free way using CRDTs.
 Peers with the same set of updates will have the same database state.
 
 ## Replica
