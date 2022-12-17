@@ -1,2 +1,2 @@
-# opal-spec
-technical specifications for Opal and extensions
+# spec
+Protocol specifications for the Opalescent Database

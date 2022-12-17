@@ -4,7 +4,7 @@
 
 **Abstract**
 
-Opal databases all have an immutable setup document called a manifest.
+Opalescent databases all have an immutable setup document called a manifest.
 The manifest contains information needed to run a database.
 This information specifies protocols, formats and their configuration.
 
