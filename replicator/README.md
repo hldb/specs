@@ -19,4 +19,4 @@ Replicators handle syncing database replicas between peers. The database replica
 
 ## Implementations
 
-- [live](./live)
+- [IPHE](./IPHE)

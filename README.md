@@ -21,7 +21,7 @@ Versions:
 - [Store](./store/README.md)
   - [Keyvalue](./store/keyvalue/README.md)
 - [Replicator](./replicator/README.md)
-  - [Live](./replicator/live/)
+  - [IPHE](./replicator/iphe/README.md)
 
 
 ## Implementations
