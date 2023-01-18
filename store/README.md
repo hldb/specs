@@ -20,7 +20,7 @@ Stores are used to derive a database state from the database replica. They provi
 
 ## Operations
 
-Operations are used to update database states. They are added to entry payloads and read by the store to derive state. An operation is a map with an `op` field that has a string value. The operation encoding and additional fields are defined by the store specification.
+Operations are used to update database states. They are added to entry operations and read by the store to derive state. An operation is a map with an `op` field that has a string value. The operation encoding and additional fields are defined by the store specification.
 
 ```
 {
