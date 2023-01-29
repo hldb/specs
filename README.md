@@ -1,12 +1,12 @@
 # specs
 
-Protocol specifications for the Opalescent Database
+HLDB Protocol Specification
 
 Current Version: `1.0-beta`
 
 Versions:
 
-- [`1.0-beta`](https://github.com/opalsnt/specs/tree/1.0-beta)
+- [`1.0-beta`](https://github.com/hldb/specs/tree/1.0-beta)
 
 ## Index:
 
@@ -28,4 +28,4 @@ Versions:
 
 | Language | Project |
 | --- | --- |
-| Typescript | [Welo](https://github.com/opalsnt/welo) |
+| Typescript | [Welo](https://github.com/hldb/welo) |
