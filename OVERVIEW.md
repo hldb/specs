@@ -101,4 +101,4 @@ It's also good to understand the difference between separate users and separate 
 
 ----
 
-If you would like to talk design or ask a question join our [communtiy chat](https://matrix.to/#/#opal:matrix.org)
+If you would like to talk design or ask a question join our [communtiy chat](https://matrix.to/#/#hldb:matrix.org)
